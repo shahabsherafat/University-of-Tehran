@@ -1,0 +1,684 @@
+Analysis & Synthesis report for Reciprocal
+Fri Jan 31 02:36:41 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |Reciprocal|Datapath:datapath|Multiplier:multiplier|y
+  9. State Machine - |Reciprocal|Controller:control|y
+ 10. User-Specified and Inferred Latches
+ 11. Registers Removed During Synthesis
+ 12. Removed Registers Triggering Further Register Optimizations
+ 13. General Register Statistics
+ 14. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 15. Parameter Settings for User Entity Instance: Top-level Entity: |Reciprocal
+ 16. Parameter Settings for User Entity Instance: Controller:control
+ 17. Parameter Settings for User Entity Instance: Datapath:datapath
+ 18. Parameter Settings for User Entity Instance: Datapath:datapath|regne:x_reg
+ 19. Parameter Settings for User Entity Instance: Datapath:datapath|regne:y_reg
+ 20. Parameter Settings for User Entity Instance: Datapath:datapath|Multiplier:multiplier
+ 21. Parameter Settings for User Entity Instance: Datapath:datapath|Multiplier:multiplier|shiftrne:ShiftB
+ 22. Parameter Settings for User Entity Instance: Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA
+ 23. Parameter Settings for User Entity Instance: Datapath:datapath|Multiplier:multiplier|regne:RegP
+ 24. Parameter Settings for User Entity Instance: Datapath:datapath|regne:reg_mul1
+ 25. Parameter Settings for User Entity Instance: Datapath:datapath|Subtractor:subtractor
+ 26. Port Connectivity Checks: "Datapath:datapath|Subtractor:subtractor"
+ 27. Port Connectivity Checks: "Datapath:datapath|regne:reg_mul1"
+ 28. Port Connectivity Checks: "Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA"
+ 29. Port Connectivity Checks: "Datapath:datapath|Multiplier:multiplier|shiftrne:ShiftB"
+ 30. Port Connectivity Checks: "Datapath:datapath|Multiplier:multiplier"
+ 31. Port Connectivity Checks: "Datapath:datapath|regne:y_reg"
+ 32. Port Connectivity Checks: "Datapath:datapath|regne:x_reg"
+ 33. Port Connectivity Checks: "Datapath:datapath|Counter_4bit:counter"
+ 34. Elapsed Time Per Partition
+ 35. Analysis & Synthesis Messages
+ 36. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Jan 31 02:36:41 2025           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; Reciprocal                                      ;
+; Top-level Entity Name              ; Reciprocal                                      ;
+; Family                             ; Cyclone IV E                                    ;
+; Total logic elements               ; 148                                             ;
+;     Total combinational functions  ; 126                                             ;
+;     Dedicated logic registers      ; 87                                              ;
+; Total registers                    ; 87                                              ;
+; Total pins                         ; 32                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CE30F23C6       ;                    ;
+; Top-level entity name                                                      ; Reciprocal         ; Reciprocal         ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 16     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                               ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                           ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
+; ../Utilities.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/Shahab/Desktop/DLD/CA5/Utilities.sv           ;         ;
+; ../Reciprocal_datapath.sv        ; yes             ; User SystemVerilog HDL File  ; C:/Users/Shahab/Desktop/DLD/CA5/Reciprocal_datapath.sv ;         ;
+; ../Reciprocal_control.sv         ; yes             ; User SystemVerilog HDL File  ; C:/Users/Shahab/Desktop/DLD/CA5/Reciprocal_control.sv  ;         ;
+; ../Reciprocal.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/Shahab/Desktop/DLD/CA5/Reciprocal.sv          ;         ;
+; ../Multiplier.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/Shahab/Desktop/DLD/CA5/Multiplier.sv          ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 148       ;
+;                                             ;           ;
+; Total combinational functions               ; 126       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 18        ;
+;     -- 3 input functions                    ; 57        ;
+;     -- <=2 input functions                  ; 51        ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 101       ;
+;     -- arithmetic mode                      ; 25        ;
+;                                             ;           ;
+; Total registers                             ; 87        ;
+;     -- Dedicated logic registers            ; 87        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 32        ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 87        ;
+; Total fan-out                               ; 695       ;
+; Average fan-out                             ; 2.51      ;
++---------------------------------------------+-----------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                            ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node    ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                 ; Library Name ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------+--------------+
+; |Reciprocal                   ; 126 (0)           ; 87 (0)       ; 0           ; 0            ; 0       ; 0         ; 32   ; 0            ; |Reciprocal                                                         ; work         ;
+;    |Controller:control|       ; 47 (47)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Controller:control                                      ; work         ;
+;    |Datapath:datapath|        ; 79 (14)           ; 79 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Datapath:datapath                                       ; work         ;
+;       |Counter_4bit:counter|  ; 6 (6)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Datapath:datapath|Counter_4bit:counter                  ; work         ;
+;       |Multiplier:multiplier| ; 46 (7)            ; 39 (3)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Datapath:datapath|Multiplier:multiplier                 ; work         ;
+;          |regne:RegP|         ; 14 (14)           ; 14 (14)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Datapath:datapath|Multiplier:multiplier|regne:RegP      ; work         ;
+;          |shiftlne:ShiftA|    ; 15 (15)           ; 14 (14)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA ; work         ;
+;          |shiftrne:ShiftB|    ; 10 (10)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Datapath:datapath|Multiplier:multiplier|shiftrne:ShiftB ; work         ;
+;       |Subtractor:subtractor| ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Datapath:datapath|Subtractor:subtractor                 ; work         ;
+;       |regne:reg_mul1|        ; 0 (0)             ; 14 (14)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Datapath:datapath|regne:reg_mul1                        ; work         ;
+;       |regne:x_reg|           ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Datapath:datapath|regne:x_reg                           ; work         ;
+;       |regne:y_reg|           ; 0 (0)             ; 14 (14)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Reciprocal|Datapath:datapath|regne:y_reg                           ; work         ;
++-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++-----------------------------------------------------------------------+
+; State Machine - |Reciprocal|Datapath:datapath|Multiplier:multiplier|y ;
++------+------+------+--------------------------------------------------+
+; Name ; y.S1 ; y.S3 ; y.S2                                             ;
++------+------+------+--------------------------------------------------+
+; y.S1 ; 0    ; 0    ; 0                                                ;
+; y.S2 ; 1    ; 0    ; 1                                                ;
+; y.S3 ; 1    ; 1    ; 0                                                ;
++------+------+------+--------------------------------------------------+
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------------------------------------+
+; State Machine - |Reciprocal|Controller:control|y                                            ;
++-------------+----------+----------+--------+-------+-------------+--------+--------+--------+
+; Name        ; y.REPORT ; y.SAVE_Y ; y.MUL2 ; y.SUB ; y.SAVE_MUL1 ; y.MUL1 ; y.LOAD ; y.IDLE ;
++-------------+----------+----------+--------+-------+-------------+--------+--------+--------+
+; y.IDLE      ; 0        ; 0        ; 0      ; 0     ; 0           ; 0      ; 0      ; 0      ;
+; y.LOAD      ; 0        ; 0        ; 0      ; 0     ; 0           ; 0      ; 1      ; 1      ;
+; y.MUL1      ; 0        ; 0        ; 0      ; 0     ; 0           ; 1      ; 0      ; 1      ;
+; y.SAVE_MUL1 ; 0        ; 0        ; 0      ; 0     ; 1           ; 0      ; 0      ; 1      ;
+; y.SUB       ; 0        ; 0        ; 0      ; 1     ; 0           ; 0      ; 0      ; 1      ;
+; y.MUL2      ; 0        ; 0        ; 1      ; 0     ; 0           ; 0      ; 0      ; 1      ;
+; y.SAVE_Y    ; 0        ; 1        ; 0      ; 0     ; 0           ; 0      ; 0      ; 1      ;
+; y.REPORT    ; 1        ; 0        ; 0      ; 0     ; 0           ; 0      ; 0      ; 1      ;
++-------------+----------+----------+--------+-------+-------------+--------+--------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                          ;
++-----------------------------------------------------+-------------------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal           ; Free of Timing Hazards ;
++-----------------------------------------------------+-------------------------------+------------------------+
+; Controller:control|ack                              ; Controller:control|Selector4  ; yes                    ;
+; Controller:control|sel1                             ; Controller:control|Selector14 ; yes                    ;
+; Controller:control|en3                              ; Controller:control|Selector32 ; yes                    ;
+; Controller:control|Y.SAVE_Y_267                     ; Controller:control|y.REPORT   ; yes                    ;
+; Controller:control|Y.REPORT_259                     ; Controller:control|y.REPORT   ; yes                    ;
+; Controller:control|rst2                             ; Controller:control|y.IDLE     ; yes                    ;
+; Controller:control|en2                              ; Controller:control|Selector16 ; yes                    ;
+; Controller:control|Y.IDLE_315                       ; Controller:control|y.REPORT   ; yes                    ;
+; Controller:control|mul_rst                          ; Controller:control|y.IDLE     ; yes                    ;
+; Controller:control|Y.LOAD_307                       ; Controller:control|y.REPORT   ; yes                    ;
+; Controller:control|LA                               ; Controller:control|Selector8  ; yes                    ;
+; Controller:control|s                                ; Controller:control|Selector6  ; yes                    ;
+; Controller:control|sel2                             ; Controller:control|Selector12 ; yes                    ;
+; Controller:control|LB                               ; Controller:control|Selector7  ; yes                    ;
+; Controller:control|Y.MUL2_275                       ; Controller:control|y.REPORT   ; yes                    ;
+; Controller:control|Y.MUL1_299                       ; Controller:control|y.REPORT   ; yes                    ;
+; Controller:control|en4                              ; Controller:control|Selector10 ; yes                    ;
+; Controller:control|en1                              ; Controller:control|y.IDLE     ; yes                    ;
+; Controller:control|Y.SUB_283                        ; Controller:control|y.REPORT   ; yes                    ;
+; Controller:control|Y.SAVE_MUL1_291                  ; Controller:control|y.REPORT   ; yes                    ;
+; Number of user-specified and inferred latches = 20  ;                               ;                        ;
++-----------------------------------------------------+-------------------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                        ;
++------------------------------------------------------------------+----------------------------------------+
+; Register name                                                    ; Reason for Removal                     ;
++------------------------------------------------------------------+----------------------------------------+
+; Datapath:datapath|regne:reg_mul1|Q[0,1]                          ; Stuck at GND due to stuck port data_in ;
+; Datapath:datapath|regne:y_reg|Q[0,1]                             ; Stuck at GND due to stuck port data_in ;
+; Controller:control|y~4                                           ; Lost fanout                            ;
+; Controller:control|y~5                                           ; Lost fanout                            ;
+; Controller:control|y~6                                           ; Lost fanout                            ;
+; Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA|Q[14,15] ; Lost fanout                            ;
+; Datapath:datapath|Multiplier:multiplier|regne:RegP|Q[14,15]      ; Lost fanout                            ;
+; Total Number of Removed Registers = 11                           ;                                        ;
++------------------------------------------------------------------+----------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                        ;
++---------------------------------------------------------------+--------------------+---------------------------------------------------------------+
+; Register name                                                 ; Reason for Removal ; Registers Removed due to This Register                        ;
++---------------------------------------------------------------+--------------------+---------------------------------------------------------------+
+; Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA|Q[15] ; Lost Fanouts       ; Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA|Q[14] ;
++---------------------------------------------------------------+--------------------+---------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 87    ;
+; Number of registers using Synchronous Clear  ; 14    ;
+; Number of registers using Synchronous Load   ; 9     ;
+; Number of registers using Asynchronous Clear ; 25    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 74    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------+
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |Reciprocal|Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA|Q[11] ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |Reciprocal|Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA|Q[5]  ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |Reciprocal|Datapath:datapath|Counter_4bit:counter|count[0]               ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |Reciprocal|Datapath:datapath|Multiplier:multiplier|shiftrne:ShiftB|Q[1]  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |Reciprocal ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; n              ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Controller:control ;
++----------------+-------+----------------------------------------+
+; Parameter Name ; Value ; Type                                   ;
++----------------+-------+----------------------------------------+
+; IDLE           ; 0     ; Signed Integer                         ;
+; LOAD           ; 1     ; Signed Integer                         ;
+; MUL1           ; 2     ; Signed Integer                         ;
+; SAVE_MUL1      ; 3     ; Signed Integer                         ;
+; SUB            ; 4     ; Signed Integer                         ;
+; MUL2           ; 5     ; Signed Integer                         ;
+; SAVE_Y         ; 6     ; Signed Integer                         ;
+; REPORT         ; 7     ; Signed Integer                         ;
++----------------+-------+----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:datapath ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; n              ; 8     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:datapath|regne:x_reg ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; n              ; 8     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:datapath|regne:y_reg ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; n              ; 16    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:datapath|Multiplier:multiplier ;
++----------------+-------+-------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                        ;
++----------------+-------+-------------------------------------------------------------+
+; n              ; 8     ; Signed Integer                                              ;
+; S1             ; 00    ; Unsigned Binary                                             ;
+; S2             ; 01    ; Unsigned Binary                                             ;
+; S3             ; 10    ; Unsigned Binary                                             ;
++----------------+-------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:datapath|Multiplier:multiplier|shiftrne:ShiftB ;
++----------------+-------+-----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                        ;
++----------------+-------+-----------------------------------------------------------------------------+
+; n              ; 8     ; Signed Integer                                                              ;
++----------------+-------+-----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA ;
++----------------+-------+-----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                        ;
++----------------+-------+-----------------------------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                                              ;
++----------------+-------+-----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:datapath|Multiplier:multiplier|regne:RegP ;
++----------------+-------+------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                   ;
++----------------+-------+------------------------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                                         ;
++----------------+-------+------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:datapath|regne:reg_mul1 ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Datapath:datapath|Subtractor:subtractor ;
++----------------+-------+-------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                        ;
++----------------+-------+-------------------------------------------------------------+
+; n              ; 16    ; Signed Integer                                              ;
++----------------+-------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:datapath|Subtractor:subtractor"                                                 ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; a[14..0]  ; Input  ; Info     ; Stuck at GND                                                                        ;
+; a[15]     ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; out[7..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:datapath|regne:reg_mul1" ;
++---------+-------+----------+---------------------------------+
+; Port    ; Type  ; Severity ; Details                         ;
++---------+-------+----------+---------------------------------+
+; D[1..0] ; Input ; Info     ; Stuck at GND                    ;
+; Resetn  ; Input ; Info     ; Stuck at VCC                    ;
++---------+-------+----------+---------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA" ;
++----------+-------+----------+-------------------------------------------------------+
+; Port     ; Type  ; Severity ; Details                                               ;
++----------+-------+----------+-------------------------------------------------------+
+; R[15..8] ; Input ; Info     ; Stuck at GND                                          ;
+; w        ; Input ; Info     ; Stuck at GND                                          ;
++----------+-------+----------+-------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:datapath|Multiplier:multiplier|shiftrne:ShiftB" ;
++------+-------+----------+-----------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                   ;
++------+-------+----------+-----------------------------------------------------------+
+; w    ; Input ; Info     ; Stuck at GND                                              ;
++------+-------+----------+-----------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:datapath|Multiplier:multiplier"                                                 ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; P[15..14] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:datapath|regne:y_reg" ;
++---------+-------+----------+------------------------------+
+; Port    ; Type  ; Severity ; Details                      ;
++---------+-------+----------+------------------------------+
+; D[1..0] ; Input ; Info     ; Stuck at GND                 ;
+; Resetn  ; Input ; Info     ; Stuck at VCC                 ;
++---------+-------+----------+------------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:datapath|regne:x_reg" ;
++--------+-------+----------+-------------------------------+
+; Port   ; Type  ; Severity ; Details                       ;
++--------+-------+----------+-------------------------------+
+; Resetn ; Input ; Info     ; Stuck at VCC                  ;
++--------+-------+----------+-------------------------------+
+
+
++--------------------------------------------------------------------+
+; Port Connectivity Checks: "Datapath:datapath|Counter_4bit:counter" ;
++---------+-------+----------+---------------------------------------+
+; Port    ; Type  ; Severity ; Details                               ;
++---------+-------+----------+---------------------------------------+
+; load_in ; Input ; Info     ; Stuck at GND                          ;
++---------+-------+----------+---------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Jan 31 02:36:40 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Reciprocal -c Reciprocal
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file /users/shahab/desktop/dld/ca5/reciprocal_tb.sv
+    Info (12023): Found entity 1: Reciprocal_TB
+Info (12021): Found 1 design units, including 1 entities, in source file /users/shahab/desktop/dld/ca5/multiplier_16bit_tb.sv
+    Info (12023): Found entity 1: Multiplier_16bit_TB
+Info (12021): Found 1 design units, including 1 entities, in source file /users/shahab/desktop/dld/ca5/multiplier_8bit_tb.sv
+    Info (12023): Found entity 1: Multiplier_8bit_TB
+Info (12021): Found 5 design units, including 5 entities, in source file /users/shahab/desktop/dld/ca5/utilities.sv
+    Info (12023): Found entity 1: shiftrne
+    Info (12023): Found entity 2: shiftlne
+    Info (12023): Found entity 3: regne
+    Info (12023): Found entity 4: Counter_4bit
+    Info (12023): Found entity 5: Subtractor
+Info (12021): Found 1 design units, including 1 entities, in source file /users/shahab/desktop/dld/ca5/reciprocal_datapath.sv
+    Info (12023): Found entity 1: Datapath
+Info (12021): Found 1 design units, including 1 entities, in source file /users/shahab/desktop/dld/ca5/reciprocal_control.sv
+    Info (12023): Found entity 1: Controller
+Info (12021): Found 1 design units, including 1 entities, in source file /users/shahab/desktop/dld/ca5/reciprocal.sv
+    Info (12023): Found entity 1: Reciprocal
+Info (12021): Found 1 design units, including 1 entities, in source file /users/shahab/desktop/dld/ca5/multiplier.sv
+    Info (12023): Found entity 1: Multiplier
+Info (12127): Elaborating entity "Reciprocal" for the top level hierarchy
+Info (12128): Elaborating entity "Controller" for hierarchy "Controller:control"
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "en1", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "en3", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "mul_rst", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "rst2", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "Y", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "en2", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "sel1", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "sel2", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "en4", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "ack", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "LA", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "LB", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at Reciprocal_control.sv(20): inferring latch(es) for variable "s", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "s" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "LB" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "LA" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "ack" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "en4" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "sel2" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "sel1" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "en2" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "Y.REPORT" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "Y.SAVE_Y" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "Y.MUL2" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "Y.SUB" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "Y.SAVE_MUL1" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "Y.MUL1" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "Y.LOAD" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "Y.IDLE" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "rst2" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "mul_rst" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "en3" at Reciprocal_control.sv(20)
+Info (10041): Inferred latch for "en1" at Reciprocal_control.sv(20)
+Info (12128): Elaborating entity "Datapath" for hierarchy "Datapath:datapath"
+Info (12128): Elaborating entity "Counter_4bit" for hierarchy "Datapath:datapath|Counter_4bit:counter"
+Warning (10230): Verilog HDL assignment warning at Utilities.sv(67): truncated value with size 32 to match size of target (4)
+Info (12128): Elaborating entity "regne" for hierarchy "Datapath:datapath|regne:x_reg"
+Info (12128): Elaborating entity "regne" for hierarchy "Datapath:datapath|regne:y_reg"
+Info (12128): Elaborating entity "Multiplier" for hierarchy "Datapath:datapath|Multiplier:multiplier"
+Warning (10230): Verilog HDL assignment warning at Multiplier.sv(69): truncated value with size 32 to match size of target (1)
+Info (12128): Elaborating entity "shiftrne" for hierarchy "Datapath:datapath|Multiplier:multiplier|shiftrne:ShiftB"
+Info (12128): Elaborating entity "shiftlne" for hierarchy "Datapath:datapath|Multiplier:multiplier|shiftlne:ShiftA"
+Info (12128): Elaborating entity "Subtractor" for hierarchy "Datapath:datapath|Subtractor:subtractor"
+Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
+    Info (13026): Duplicate LATCH primitive "Controller:control|en1" merged with LATCH primitive "Controller:control|mul_rst"
+Warning (13012): Latch Controller:control|ack has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:control|y.SAVE_Y
+Warning (13012): Latch Controller:control|sel1 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:control|y.LOAD
+Warning (13012): Latch Controller:control|en3 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:control|y.MUL2
+Warning (13012): Latch Controller:control|en2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:control|y.SAVE_Y
+Warning (13012): Latch Controller:control|LA has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:control|y.IDLE
+Warning (13012): Latch Controller:control|s has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:control|y.MUL1
+Warning (13012): Latch Controller:control|sel2 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:control|y.SUB
+Warning (13012): Latch Controller:control|LB has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:control|y.IDLE
+Warning (13012): Latch Controller:control|en4 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Controller:control|y.MUL1
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "x_inv[0]" is stuck at GND
+    Warning (13410): Pin "x_inv[1]" is stuck at GND
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 7 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file C:/Users/Shahab/Desktop/DLD/CA5/Quartus/output_files/Reciprocal.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 187 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 15 input pins
+    Info (21059): Implemented 17 output pins
+    Info (21061): Implemented 155 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 37 warnings
+    Info: Peak virtual memory: 4585 megabytes
+    Info: Processing ended: Fri Jan 31 02:36:41 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/Shahab/Desktop/DLD/CA5/Quartus/output_files/Reciprocal.map.smsg.
+
+

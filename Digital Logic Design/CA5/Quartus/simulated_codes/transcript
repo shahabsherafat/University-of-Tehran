@@ -1,0 +1,51 @@
+vsim -gui work.Reciprocal_TB -L altera_ver -L cycloneiv_ver -L cycloneive_ver
+# vsim -gui work.Reciprocal_TB -L altera_ver -L cycloneiv_ver -L cycloneive_ver 
+# Start time: 03:24:46 on Jan 31,2025
+# Loading sv_std.std
+# Loading work.Reciprocal_TB
+# Loading work.Reciprocal
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading instances from Reciprocal_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from Reciprocal_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Reciprocal_TB File: C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal_TB.sv
+vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver work.Reciprocal_TB -sdftyp /main=C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal_v.sdo
+# End time: 03:25:13 on Jan 31,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 1
+# vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver work.Reciprocal_TB -sdftyp "/main=C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal_v.sdo" 
+# Start time: 03:25:13 on Jan 31,2025
+# Loading sv_std.std
+# Loading work.Reciprocal_TB
+# Loading work.Reciprocal
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading instances from C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal_v.sdo
+# Loading instances from Reciprocal_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal_v.sdo
+# Loading timing data from Reciprocal_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Reciprocal_TB File: C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal_TB.sv
+add wave -position insertpoint  \
+sim:/Reciprocal_TB/x_in \
+sim:/Reciprocal_TB/n_iter \
+sim:/Reciprocal_TB/x_inv \
+sim:/Reciprocal_TB/clk \
+sim:/Reciprocal_TB/req \
+sim:/Reciprocal_TB/rst \
+sim:/Reciprocal_TB/ack
+run
+# End time: 03:51:29 on Jan 31,2025, Elapsed time: 0:26:16
+# Errors: 0, Warnings: 1

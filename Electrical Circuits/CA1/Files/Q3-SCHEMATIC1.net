@@ -1,0 +1,13 @@
+* source Q3
+C_C1         N084370 N02521  100u IC=0 
+I_I1         0 N00884 DC 5  
+R_R1         0 N00884  4  
+R_R2         0 N00291  6  
+R_R3         N00291 N00884  2  
+R_R7         0 N02940  5  
+E_E1         N00291 N00884 N00884 0 2
+R_R6         N02898 N02940  6  
+X_U1         0 N084370 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+V_V1         N02898 0 20
+R_R8         N00291 N02521  2  

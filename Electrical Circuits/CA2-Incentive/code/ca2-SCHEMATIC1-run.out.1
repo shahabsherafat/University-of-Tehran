@@ -1,0 +1,46 @@
+
+**** 01/21/25 04:30:26 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-run"  [ C:\USERS\SHAHAB\DESKTOP\EC\CA2\ca2-SCHEMATIC1-run.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ca2-SCHEMATIC1-run.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ca2-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING ca2-SCHEMATIC1.net ****
+* source CA2
+R_R2         N10482 N10531  1k  
+V_V1         N004210 GND 1
+R_R3         N11274 N10531  2k  
+C_C1         GND N10531  1u  
+X_U1         N004210 N10482 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+L_L1         GND N11274  4mH  
+
+**** RESUMING ca2-SCHEMATIC1-run.sim.cir ****
+.END
+
+ERROR -- Node N10482 is floating
+ERROR -- Node N10531 is floating
+ERROR -- Node N004210 is floating
+ERROR -- Node GND is floating
+ERROR -- Node N11274 is floating

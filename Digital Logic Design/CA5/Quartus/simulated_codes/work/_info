@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Shahab/Desktop/DLD/CA4
+vReciprocal
+Z0 !s110 1738280950
+!i10b 1
+!s100 Z4IXHJc^?EnW6jKVf5>5i1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0nzaDj?5JW7GJb<T4W4aU2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes
+w1738280222
+8C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal.vo
+FC:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal.vo
+!i122 11
+L0 31 4743
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1738280950.000000
+!s107 C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal.vo|
+!i113 1
+o-work work
+Z5 tCvgOpt 0
+n@reciprocal
+vReciprocal_TB
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 ?8KmfJS7<MTNW<LBnb5eC0
+R1
+I8X[n8N7IB=;Nf5`ZL3@CP1
+R2
+S1
+R3
+w1738280942
+8C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal_TB.sv
+FC:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal_TB.sv
+!i122 10
+L0 3 38
+R4
+r1
+!s85 0
+31
+!s108 1738280949.000000
+!s107 C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Shahab/Desktop/DLD/CA5/Quartus/simulated_codes/Reciprocal_TB.sv|
+!i113 1
+o-work work -sv
+R5
+n@reciprocal_@t@b

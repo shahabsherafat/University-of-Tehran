@@ -1,0 +1,9 @@
+* source Q2
+V_V4         N12727 0  
++SIN 0 1 31.83 0 0 319.375
+L_L3         N11986 0  4m IC=0 
+R_R2         N10482 N10531  1k  
+R_R3         N11986 N10531  2k  
+C_C1         0 N10531  1u IC=0 
+X_U1         N12727 N10482 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg

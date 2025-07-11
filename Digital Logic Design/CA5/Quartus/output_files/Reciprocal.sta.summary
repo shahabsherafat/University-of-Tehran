@@ -1,0 +1,137 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Controller:control|y.IDLE'
+Slack : -4.180
+TNS   : -25.478
+
+Type  : Slow 1200mV 85C Model Setup 'Controller:control|y.REPORT'
+Slack : -3.581
+TNS   : -16.070
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -1.958
+TNS   : -83.734
+
+Type  : Slow 1200mV 85C Model Hold 'Controller:control|y.REPORT'
+Slack : -2.530
+TNS   : -5.598
+
+Type  : Slow 1200mV 85C Model Hold 'Controller:control|y.IDLE'
+Slack : -0.829
+TNS   : -1.667
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.329
+TNS   : -4.323
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -1.285
+TNS   : -21.227
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 1.372
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -90.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Controller:control|y.REPORT'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Controller:control|y.IDLE'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'Controller:control|y.IDLE'
+Slack : -3.712
+TNS   : -22.246
+
+Type  : Slow 1200mV 0C Model Setup 'Controller:control|y.REPORT'
+Slack : -3.196
+TNS   : -13.889
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -1.605
+TNS   : -66.900
+
+Type  : Slow 1200mV 0C Model Hold 'Controller:control|y.REPORT'
+Slack : -2.292
+TNS   : -5.050
+
+Type  : Slow 1200mV 0C Model Hold 'Controller:control|y.IDLE'
+Slack : -0.764
+TNS   : -1.506
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.303
+TNS   : -4.531
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -1.059
+TNS   : -17.398
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 1.206
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -90.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Controller:control|y.REPORT'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Controller:control|y.IDLE'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Controller:control|y.IDLE'
+Slack : -2.067
+TNS   : -11.898
+
+Type  : Fast 1200mV 0C Model Setup 'Controller:control|y.REPORT'
+Slack : -1.915
+TNS   : -6.442
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.697
+TNS   : -17.195
+
+Type  : Fast 1200mV 0C Model Hold 'Controller:control|y.REPORT'
+Slack : -1.498
+TNS   : -3.334
+
+Type  : Fast 1200mV 0C Model Hold 'Controller:control|y.IDLE'
+Slack : -0.451
+TNS   : -0.955
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.278
+TNS   : -5.240
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : -0.306
+TNS   : -4.804
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.684
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -94.134
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Controller:control|y.REPORT'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Controller:control|y.IDLE'
+Slack : 0.336
+TNS   : 0.000
+
+------------------------------------------------------------

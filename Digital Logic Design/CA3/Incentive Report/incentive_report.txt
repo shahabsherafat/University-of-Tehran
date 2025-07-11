@@ -1,0 +1,2015 @@
+Repetition 1: random generated number = 1
+
+Repetition 2: random generated number = 1
+
+Repetition 3: random generated number = 0
+
+Repetition 4: random generated number = 0
+
+Repetition 5: random generated number = 0
+
+Repetition 6: random generated number = 0
+
+Repetition 7: random generated number = 1
+
+Repetition 8: random generated number = 0
+
+Repetition 9: random generated number = 0
+
+Repetition 10: random generated number = 1
+
+Repetition 11: random generated number = 0
+
+Repetition 12: random generated number = 0
+
+Repetition 13: random generated number = 1
+
+Repetition 14: random generated number = 1
+
+Repetition 15: random generated number = 1
+
+Repetition 16: random generated number = 0
+
+Repetition 17: random generated number = 0
+
+Repetition 18: random generated number = 0
+
+Repetition 19: random generated number = 0
+
+Repetition 20: random generated number = 0
+
+Repetition 21: random generated number = 1
+
+Repetition 22: random generated number = 0
+
+Repetition 23: random generated number = 0
+
+Repetition 24: random generated number = 1
+
+Repetition 25: random generated number = 0
+
+Repetition 26: random generated number = 0
+
+Repetition 27: random generated number = 1
+
+Repetition 28: random generated number = 0
+
+Repetition 29: random generated number = 0
+
+Repetition 30: random generated number = 1
+
+Repetition 31: random generated number = 1
+
+Repetition 32: random generated number = 1
+
+Repetition 33: random generated number = 0
+
+Repetition 34: random generated number = 0
+
+Repetition 35: random generated number = 0
+
+Repetition 36: random generated number = 0
+
+Repetition 37: random generated number = 1
+
+Repetition 38: random generated number = 0
+
+Repetition 39: random generated number = 1
+
+Repetition 40: random generated number = 1
+
+Repetition 41: random generated number = 1
+
+Repetition 42: random generated number = 1
+
+Repetition 43: random generated number = 0
+
+Repetition 44: random generated number = 0
+
+Repetition 45: random generated number = 0
+
+Repetition 46: random generated number = 1
+
+Repetition 47: random generated number = 0
+
+Repetition 48: random generated number = 1
+
+Repetition 49: random generated number = 0
+
+Repetition 50: random generated number = 1
+
+Repetition 51: random generated number = 1
+
+Repetition 52: random generated number = 0
+
+Repetition 53: random generated number = 1
+
+Repetition 54: random generated number = 1
+
+Repetition 55: random generated number = 0
+
+Repetition 56: random generated number = 1
+
+Repetition 57: random generated number = 1
+
+Repetition 58: random generated number = 1
+
+Repetition 59: random generated number = 1
+
+Repetition 60: random generated number = 1
+
+Repetition 61: random generated number = 1
+
+Repetition 62: random generated number = 1
+
+Repetition 63: random generated number = 1
+
+Repetition 64: random generated number = 1
+
+Repetition 65: random generated number = 1
+
+Repetition 66: random generated number = 0
+
+Repetition 67: random generated number = 1
+
+Repetition 68: random generated number = 0
+
+Repetition 69: random generated number = 0
+
+Repetition 70: random generated number = 1
+
+Repetition 71: random generated number = 0
+
+Repetition 72: random generated number = 1
+
+Repetition 73: random generated number = 1
+
+Repetition 74: random generated number = 1
+
+Repetition 75: random generated number = 1
+
+Repetition 76: random generated number = 1
+
+Repetition 77: random generated number = 1
+
+Repetition 78: random generated number = 0
+
+Repetition 79: random generated number = 1
+
+Repetition 80: random generated number = 0
+
+Repetition 81: random generated number = 1
+
+Repetition 82: random generated number = 1
+
+Repetition 83: random generated number = 1
+
+Repetition 84: random generated number = 0
+
+Repetition 85: random generated number = 0
+
+Repetition 86: random generated number = 1
+
+Repetition 87: random generated number = 0
+
+Repetition 88: random generated number = 0
+
+Repetition 89: random generated number = 1
+
+Repetition 90: random generated number = 1
+
+Repetition 91: random generated number = 1
+
+Repetition 92: random generated number = 0
+
+Repetition 93: random generated number = 0
+
+Repetition 94: random generated number = 1
+
+Repetition 95: random generated number = 0
+
+Repetition 96: random generated number = 0
+
+Repetition 97: random generated number = 0
+
+Repetition 98: random generated number = 0
+
+Repetition 99: random generated number = 0
+
+Repetition 100: random generated number = 0
+
+Repetition 101: random generated number = 1
+
+Repetition 102: random generated number = 0
+
+Repetition 103: random generated number = 1
+
+Repetition 104: random generated number = 1
+
+Repetition 105: random generated number = 0
+
+Repetition 106: random generated number = 1
+
+Repetition 107: random generated number = 0
+
+Repetition 108: random generated number = 1
+
+Repetition 109: random generated number = 1
+
+Repetition 110: random generated number = 1
+
+Repetition 111: random generated number = 0
+
+Repetition 112: random generated number = 0
+
+Repetition 113: random generated number = 0
+
+Repetition 114: random generated number = 1
+
+Repetition 115: random generated number = 1
+
+Repetition 116: random generated number = 1
+
+Repetition 117: random generated number = 1
+
+Repetition 118: random generated number = 0
+
+Repetition 119: random generated number = 1
+
+Repetition 120: random generated number = 1
+
+Repetition 121: random generated number = 0
+
+Repetition 122: random generated number = 1
+
+Repetition 123: random generated number = 1
+
+Repetition 124: random generated number = 1
+
+Repetition 125: random generated number = 1
+
+Repetition 126: random generated number = 1
+
+Repetition 127: random generated number = 0
+
+Repetition 128: random generated number = 1
+
+Repetition 129: random generated number = 0
+
+Repetition 130: random generated number = 0
+
+Repetition 131: random generated number = 0
+
+Repetition 132: random generated number = 0
+
+Repetition 133: random generated number = 1
+
+Repetition 134: random generated number = 0
+
+Repetition 135: random generated number = 1
+
+Repetition 136: random generated number = 1
+
+Repetition 137: random generated number = 0
+
+Repetition 138: random generated number = 0
+
+Repetition 139: random generated number = 1
+
+Repetition 140: random generated number = 1
+
+Repetition 141: random generated number = 0
+
+Repetition 142: random generated number = 0
+
+Repetition 143: random generated number = 1
+
+Repetition 144: random generated number = 1
+
+Repetition 145: random generated number = 1
+
+Repetition 146: random generated number = 0
+
+Repetition 147: random generated number = 0
+
+Repetition 148: random generated number = 0
+
+Repetition 149: random generated number = 0
+
+Repetition 150: random generated number = 0
+
+Repetition 151: random generated number = 1
+
+Repetition 152: random generated number = 1
+
+Repetition 153: random generated number = 1
+
+Repetition 154: random generated number = 1
+
+Repetition 155: random generated number = 1
+
+Repetition 156: random generated number = 1
+
+Repetition 157: random generated number = 0
+
+Repetition 158: random generated number = 0
+
+Repetition 159: random generated number = 0
+
+Repetition 160: random generated number = 0
+
+Repetition 161: random generated number = 0
+
+Repetition 162: random generated number = 1
+
+Repetition 163: random generated number = 0
+
+Repetition 164: random generated number = 0
+
+Repetition 165: random generated number = 0
+
+Repetition 166: random generated number = 1
+
+Repetition 167: random generated number = 1
+
+Repetition 168: random generated number = 1
+
+Repetition 169: random generated number = 1
+
+Repetition 170: random generated number = 1
+
+Repetition 171: random generated number = 1
+
+Repetition 172: random generated number = 1
+
+Repetition 173: random generated number = 0
+
+Repetition 174: random generated number = 0
+
+Repetition 175: random generated number = 1
+
+Repetition 176: random generated number = 1
+
+Repetition 177: random generated number = 1
+
+Repetition 178: random generated number = 1
+
+Repetition 179: random generated number = 1
+
+Repetition 180: random generated number = 0
+
+Repetition 181: random generated number = 1
+
+Repetition 182: random generated number = 0
+
+Repetition 183: random generated number = 1
+
+Repetition 184: random generated number = 1
+
+Repetition 185: random generated number = 0
+
+Repetition 186: random generated number = 0
+
+Repetition 187: random generated number = 1
+
+Repetition 188: random generated number = 0
+
+Repetition 189: random generated number = 0
+
+Repetition 190: random generated number = 1
+
+Repetition 191: random generated number = 0
+
+Repetition 192: random generated number = 1
+
+Repetition 193: random generated number = 1
+
+Repetition 194: random generated number = 0
+
+Repetition 195: random generated number = 1
+
+Repetition 196: random generated number = 0
+
+Repetition 197: random generated number = 1
+
+Repetition 198: random generated number = 1
+
+Repetition 199: random generated number = 1
+
+Repetition 200: random generated number = 0
+
+Repetition 201: random generated number = 0
+
+Repetition 202: random generated number = 0
+
+Repetition 203: random generated number = 0
+
+Repetition 204: random generated number = 1
+
+Repetition 205: random generated number = 1
+
+Repetition 206: random generated number = 0
+
+Repetition 207: random generated number = 0
+
+Repetition 208: random generated number = 0
+
+Repetition 209: random generated number = 1
+
+Repetition 210: random generated number = 0
+
+Repetition 211: random generated number = 1
+
+Repetition 212: random generated number = 1
+
+Repetition 213: random generated number = 0
+
+Repetition 214: random generated number = 0
+
+Repetition 215: random generated number = 0
+
+Repetition 216: random generated number = 1
+
+Repetition 217: random generated number = 1
+
+Repetition 218: random generated number = 0
+
+Repetition 219: random generated number = 0
+
+Repetition 220: random generated number = 0
+
+Repetition 221: random generated number = 0
+
+Repetition 222: random generated number = 0
+
+Repetition 223: random generated number = 0
+
+Repetition 224: random generated number = 1
+
+Repetition 225: random generated number = 0
+
+Repetition 226: random generated number = 1
+
+Repetition 227: random generated number = 1
+
+Repetition 228: random generated number = 0
+
+Repetition 229: random generated number = 0
+
+Repetition 230: random generated number = 1
+
+Repetition 231: random generated number = 0
+
+Repetition 232: random generated number = 1
+
+Repetition 233: random generated number = 1
+
+Repetition 234: random generated number = 1
+
+Repetition 235: random generated number = 1
+
+Repetition 236: random generated number = 0
+
+Repetition 237: random generated number = 0
+
+Repetition 238: random generated number = 1
+
+Repetition 239: random generated number = 0
+
+Repetition 240: random generated number = 1
+
+Repetition 241: random generated number = 1
+
+Repetition 242: random generated number = 1
+
+Repetition 243: random generated number = 0
+
+Repetition 244: random generated number = 0
+
+Repetition 245: random generated number = 1
+
+Repetition 246: random generated number = 1
+
+Repetition 247: random generated number = 1
+
+Repetition 248: random generated number = 1
+
+Repetition 249: random generated number = 1
+
+Repetition 250: random generated number = 0
+
+Repetition 251: random generated number = 1
+
+Repetition 252: random generated number = 1
+
+Repetition 253: random generated number = 0
+
+Repetition 254: random generated number = 0
+
+Repetition 255: random generated number = 0
+
+Repetition 256: random generated number = 0
+
+Repetition 257: random generated number = 1
+
+Repetition 258: random generated number = 1
+
+Repetition 259: random generated number = 1
+
+Repetition 260: random generated number = 0
+
+Repetition 261: random generated number = 0
+
+Repetition 262: random generated number = 0
+
+Repetition 263: random generated number = 0
+
+Repetition 264: random generated number = 0
+
+Repetition 265: random generated number = 1
+
+Repetition 266: random generated number = 0
+
+Repetition 267: random generated number = 0
+
+Repetition 268: random generated number = 1
+
+Repetition 269: random generated number = 0
+
+Repetition 270: random generated number = 1
+
+Repetition 271: random generated number = 1
+
+Repetition 272: random generated number = 0
+
+Repetition 273: random generated number = 1
+
+Repetition 274: random generated number = 1
+
+Repetition 275: random generated number = 1
+
+Repetition 276: random generated number = 1
+
+Repetition 277: random generated number = 1
+
+Repetition 278: random generated number = 0
+
+Repetition 279: random generated number = 1
+
+Repetition 280: random generated number = 1
+
+Repetition 281: random generated number = 0
+
+Repetition 282: random generated number = 0
+
+Repetition 283: random generated number = 1
+
+Repetition 284: random generated number = 0
+
+Repetition 285: random generated number = 0
+
+Repetition 286: random generated number = 0
+
+Repetition 287: random generated number = 1
+
+Repetition 288: random generated number = 0
+
+Repetition 289: random generated number = 0
+
+Repetition 290: random generated number = 0
+
+Repetition 291: random generated number = 0
+
+Repetition 292: random generated number = 0
+
+Repetition 293: random generated number = 1
+
+Repetition 294: random generated number = 1
+
+Repetition 295: random generated number = 1
+
+Repetition 296: random generated number = 0
+
+Repetition 297: random generated number = 0
+
+Repetition 298: random generated number = 0
+
+Repetition 299: random generated number = 1
+
+Repetition 300: random generated number = 1
+
+Repetition 301: random generated number = 1
+
+Repetition 302: random generated number = 1
+
+Repetition 303: random generated number = 0
+
+Repetition 304: random generated number = 0
+
+Repetition 305: random generated number = 1
+
+Repetition 306: random generated number = 1
+
+Repetition 307: random generated number = 1
+
+Repetition 308: random generated number = 0
+
+Repetition 309: random generated number = 1
+
+Repetition 310: random generated number = 1
+
+Repetition 311: random generated number = 0
+
+Repetition 312: random generated number = 0
+
+Repetition 313: random generated number = 0
+
+Repetition 314: random generated number = 1
+
+Repetition 315: random generated number = 1
+
+Repetition 316: random generated number = 0
+
+Repetition 317: random generated number = 1
+
+Repetition 318: random generated number = 0
+
+Repetition 319: random generated number = 1
+
+Repetition 320: random generated number = 0
+
+Repetition 321: random generated number = 1
+
+Repetition 322: random generated number = 1
+
+Repetition 323: random generated number = 1
+
+Repetition 324: random generated number = 1
+
+Repetition 325: random generated number = 1
+
+Repetition 326: random generated number = 1
+
+Repetition 327: random generated number = 0
+
+Repetition 328: random generated number = 0
+
+Repetition 329: random generated number = 0
+
+Repetition 330: random generated number = 1
+
+Repetition 331: random generated number = 1
+
+Repetition 332: random generated number = 1
+
+Repetition 333: random generated number = 0
+
+Repetition 334: random generated number = 0
+
+Repetition 335: random generated number = 1
+
+Repetition 336: random generated number = 1
+
+Repetition 337: random generated number = 1
+
+Repetition 338: random generated number = 1
+
+Repetition 339: random generated number = 1
+
+Repetition 340: random generated number = 0
+
+Repetition 341: random generated number = 0
+
+Repetition 342: random generated number = 0
+
+Repetition 343: random generated number = 1
+
+Repetition 344: random generated number = 0
+
+Repetition 345: random generated number = 0
+
+Repetition 346: random generated number = 0
+
+Repetition 347: random generated number = 1
+
+Repetition 348: random generated number = 0
+
+Repetition 349: random generated number = 1
+
+Repetition 350: random generated number = 0
+
+Repetition 351: random generated number = 0
+
+Repetition 352: random generated number = 1
+
+Repetition 353: random generated number = 1
+
+Repetition 354: random generated number = 1
+
+Repetition 355: random generated number = 0
+
+Repetition 356: random generated number = 1
+
+Repetition 357: random generated number = 0
+
+Repetition 358: random generated number = 1
+
+Repetition 359: random generated number = 1
+
+Repetition 360: random generated number = 1
+
+Repetition 361: random generated number = 1
+
+Repetition 362: random generated number = 0
+
+Repetition 363: random generated number = 1
+
+Repetition 364: random generated number = 1
+
+Repetition 365: random generated number = 0
+
+Repetition 366: random generated number = 1
+
+Repetition 367: random generated number = 0
+
+Repetition 368: random generated number = 1
+
+Repetition 369: random generated number = 0
+
+Repetition 370: random generated number = 1
+
+Repetition 371: random generated number = 0
+
+Repetition 372: random generated number = 1
+
+Repetition 373: random generated number = 1
+
+Repetition 374: random generated number = 1
+
+Repetition 375: random generated number = 0
+
+Repetition 376: random generated number = 1
+
+Repetition 377: random generated number = 1
+
+Repetition 378: random generated number = 1
+
+Repetition 379: random generated number = 0
+
+Repetition 380: random generated number = 1
+
+Repetition 381: random generated number = 0
+
+Repetition 382: random generated number = 0
+
+Repetition 383: random generated number = 1
+
+Repetition 384: random generated number = 1
+
+Repetition 385: random generated number = 0
+
+Repetition 386: random generated number = 0
+
+Repetition 387: random generated number = 0
+
+Repetition 388: random generated number = 1
+
+Repetition 389: random generated number = 1
+
+Repetition 390: random generated number = 0
+
+Repetition 391: random generated number = 1
+
+Repetition 392: random generated number = 1
+
+Repetition 393: random generated number = 1
+
+Repetition 394: random generated number = 0
+
+Repetition 395: random generated number = 0
+
+Repetition 396: random generated number = 0
+
+Repetition 397: random generated number = 0
+
+Repetition 398: random generated number = 0
+
+Repetition 399: random generated number = 1
+
+Repetition 400: random generated number = 0
+
+Repetition 401: random generated number = 1
+
+Repetition 402: random generated number = 1
+
+Repetition 403: random generated number = 1
+
+Repetition 404: random generated number = 1
+
+Repetition 405: random generated number = 1
+
+Repetition 406: random generated number = 0
+
+Repetition 407: random generated number = 1
+
+Repetition 408: random generated number = 1
+
+Repetition 409: random generated number = 0
+
+Repetition 410: random generated number = 1
+
+Repetition 411: random generated number = 0
+
+Repetition 412: random generated number = 1
+
+Repetition 413: random generated number = 0
+
+Repetition 414: random generated number = 0
+
+Repetition 415: random generated number = 1
+
+Repetition 416: random generated number = 0
+
+Repetition 417: random generated number = 1
+
+Repetition 418: random generated number = 0
+
+Repetition 419: random generated number = 0
+
+Repetition 420: random generated number = 0
+
+Repetition 421: random generated number = 1
+
+Repetition 422: random generated number = 1
+
+Repetition 423: random generated number = 0
+
+Repetition 424: random generated number = 1
+
+Repetition 425: random generated number = 1
+
+Repetition 426: random generated number = 0
+
+Repetition 427: random generated number = 1
+
+Repetition 428: random generated number = 0
+
+Repetition 429: random generated number = 1
+
+Repetition 430: random generated number = 1
+
+Repetition 431: random generated number = 0
+
+Repetition 432: random generated number = 0
+
+Repetition 433: random generated number = 0
+
+Repetition 434: random generated number = 0
+
+Repetition 435: random generated number = 0
+
+Repetition 436: random generated number = 1
+
+Repetition 437: random generated number = 0
+
+Repetition 438: random generated number = 0
+
+Repetition 439: random generated number = 1
+
+Repetition 440: random generated number = 1
+
+Repetition 441: random generated number = 1
+
+Repetition 442: random generated number = 0
+
+Repetition 443: random generated number = 0
+
+Repetition 444: random generated number = 0
+
+Repetition 445: random generated number = 1
+
+Repetition 446: random generated number = 1
+
+Repetition 447: random generated number = 0
+
+Repetition 448: random generated number = 1
+
+Repetition 449: random generated number = 1
+
+Repetition 450: random generated number = 1
+
+Repetition 451: random generated number = 0
+
+Repetition 452: random generated number = 1
+
+Repetition 453: random generated number = 1
+
+Repetition 454: random generated number = 1
+
+Repetition 455: random generated number = 0
+
+Repetition 456: random generated number = 1
+
+Repetition 457: random generated number = 0
+
+Repetition 458: random generated number = 0
+
+Repetition 459: random generated number = 0
+
+Repetition 460: random generated number = 0
+
+Repetition 461: random generated number = 1
+
+Repetition 462: random generated number = 1
+
+Repetition 463: random generated number = 1
+
+Repetition 464: random generated number = 1
+
+Repetition 465: random generated number = 1
+
+Repetition 466: random generated number = 0
+
+Repetition 467: random generated number = 1
+
+Repetition 468: random generated number = 0
+
+Repetition 469: random generated number = 1
+
+Repetition 470: random generated number = 0
+
+Repetition 471: random generated number = 1
+
+Repetition 472: random generated number = 1
+
+Repetition 473: random generated number = 0
+
+Repetition 474: random generated number = 0
+
+Repetition 475: random generated number = 0
+
+Repetition 476: random generated number = 0
+
+Repetition 477: random generated number = 0
+
+Repetition 478: random generated number = 1
+
+Repetition 479: random generated number = 1
+
+Repetition 480: random generated number = 1
+
+Repetition 481: random generated number = 1
+
+Repetition 482: random generated number = 1
+
+Repetition 483: random generated number = 0
+
+Repetition 484: random generated number = 1
+
+Repetition 485: random generated number = 0
+
+Repetition 486: random generated number = 0
+
+Repetition 487: random generated number = 1
+
+Repetition 488: random generated number = 0
+
+Repetition 489: random generated number = 1
+
+Repetition 490: random generated number = 0
+
+Repetition 491: random generated number = 0
+
+Repetition 492: random generated number = 0
+
+Repetition 493: random generated number = 1
+
+Repetition 494: random generated number = 0
+
+Repetition 495: random generated number = 1
+
+Repetition 496: random generated number = 1
+
+Repetition 497: random generated number = 0
+
+Repetition 498: random generated number = 1
+
+Repetition 499: random generated number = 1
+
+Repetition 500: random generated number = 0
+
+Repetition 501: random generated number = 1
+
+Repetition 502: random generated number = 1
+
+Repetition 503: random generated number = 1
+
+Repetition 504: random generated number = 0
+
+Repetition 505: random generated number = 0
+
+Repetition 506: random generated number = 1
+
+Repetition 507: random generated number = 0
+
+Repetition 508: random generated number = 0
+
+Repetition 509: random generated number = 0
+
+Repetition 510: random generated number = 0
+
+Repetition 511: random generated number = 1
+
+Repetition 512: random generated number = 1
+
+Repetition 513: random generated number = 1
+
+Repetition 514: random generated number = 1
+
+Repetition 515: random generated number = 0
+
+Repetition 516: random generated number = 0
+
+Repetition 517: random generated number = 0
+
+Repetition 518: random generated number = 0
+
+Repetition 519: random generated number = 1
+
+Repetition 520: random generated number = 0
+
+Repetition 521: random generated number = 1
+
+Repetition 522: random generated number = 0
+
+Repetition 523: random generated number = 0
+
+Repetition 524: random generated number = 1
+
+Repetition 525: random generated number = 1
+
+Repetition 526: random generated number = 1
+
+Repetition 527: random generated number = 1
+
+Repetition 528: random generated number = 1
+
+Repetition 529: random generated number = 1
+
+Repetition 530: random generated number = 1
+
+Repetition 531: random generated number = 1
+
+Repetition 532: random generated number = 1
+
+Repetition 533: random generated number = 1
+
+Repetition 534: random generated number = 1
+
+Repetition 535: random generated number = 0
+
+Repetition 536: random generated number = 0
+
+Repetition 537: random generated number = 0
+
+Repetition 538: random generated number = 0
+
+Repetition 539: random generated number = 0
+
+Repetition 540: random generated number = 1
+
+Repetition 541: random generated number = 0
+
+Repetition 542: random generated number = 1
+
+Repetition 543: random generated number = 0
+
+Repetition 544: random generated number = 1
+
+Repetition 545: random generated number = 1
+
+Repetition 546: random generated number = 1
+
+Repetition 547: random generated number = 0
+
+Repetition 548: random generated number = 0
+
+Repetition 549: random generated number = 1
+
+Repetition 550: random generated number = 0
+
+Repetition 551: random generated number = 0
+
+Repetition 552: random generated number = 0
+
+Repetition 553: random generated number = 1
+
+Repetition 554: random generated number = 0
+
+Repetition 555: random generated number = 1
+
+Repetition 556: random generated number = 1
+
+Repetition 557: random generated number = 1
+
+Repetition 558: random generated number = 0
+
+Repetition 559: random generated number = 1
+
+Repetition 560: random generated number = 0
+
+Repetition 561: random generated number = 1
+
+Repetition 562: random generated number = 1
+
+Repetition 563: random generated number = 1
+
+Repetition 564: random generated number = 1
+
+Repetition 565: random generated number = 1
+
+Repetition 566: random generated number = 0
+
+Repetition 567: random generated number = 1
+
+Repetition 568: random generated number = 0
+
+Repetition 569: random generated number = 1
+
+Repetition 570: random generated number = 0
+
+Repetition 571: random generated number = 0
+
+Repetition 572: random generated number = 0
+
+Repetition 573: random generated number = 0
+
+Repetition 574: random generated number = 0
+
+Repetition 575: random generated number = 1
+
+Repetition 576: random generated number = 0
+
+Repetition 577: random generated number = 1
+
+Repetition 578: random generated number = 1
+
+Repetition 579: random generated number = 1
+
+Repetition 580: random generated number = 0
+
+Repetition 581: random generated number = 1
+
+Repetition 582: random generated number = 1
+
+Repetition 583: random generated number = 0
+
+Repetition 584: random generated number = 1
+
+Repetition 585: random generated number = 1
+
+Repetition 586: random generated number = 1
+
+Repetition 587: random generated number = 1
+
+Repetition 588: random generated number = 1
+
+Repetition 589: random generated number = 0
+
+Repetition 590: random generated number = 0
+
+Repetition 591: random generated number = 1
+
+Repetition 592: random generated number = 1
+
+Repetition 593: random generated number = 1
+
+Repetition 594: random generated number = 0
+
+Repetition 595: random generated number = 0
+
+Repetition 596: random generated number = 0
+
+Repetition 597: random generated number = 0
+
+Repetition 598: random generated number = 0
+
+Repetition 599: random generated number = 1
+
+Repetition 600: random generated number = 0
+
+Repetition 601: random generated number = 0
+
+Repetition 602: random generated number = 0
+
+Repetition 603: random generated number = 1
+
+Repetition 604: random generated number = 0
+
+Repetition 605: random generated number = 0
+
+Repetition 606: random generated number = 0
+
+Repetition 607: random generated number = 1
+
+Repetition 608: random generated number = 0
+
+Repetition 609: random generated number = 0
+
+Repetition 610: random generated number = 0
+
+Repetition 611: random generated number = 0
+
+Repetition 612: random generated number = 0
+
+Repetition 613: random generated number = 1
+
+Repetition 614: random generated number = 0
+
+Repetition 615: random generated number = 1
+
+Repetition 616: random generated number = 1
+
+Repetition 617: random generated number = 1
+
+Repetition 618: random generated number = 1
+
+Repetition 619: random generated number = 1
+
+Repetition 620: random generated number = 1
+
+Repetition 621: random generated number = 1
+
+Repetition 622: random generated number = 1
+
+Repetition 623: random generated number = 0
+
+Repetition 624: random generated number = 1
+
+Repetition 625: random generated number = 1
+
+Repetition 626: random generated number = 0
+
+Repetition 627: random generated number = 0
+
+Repetition 628: random generated number = 1
+
+Repetition 629: random generated number = 0
+
+Repetition 630: random generated number = 1
+
+Repetition 631: random generated number = 0
+
+Repetition 632: random generated number = 1
+
+Repetition 633: random generated number = 0
+
+Repetition 634: random generated number = 1
+
+Repetition 635: random generated number = 1
+
+Repetition 636: random generated number = 1
+
+Repetition 637: random generated number = 0
+
+Repetition 638: random generated number = 0
+
+Repetition 639: random generated number = 1
+
+Repetition 640: random generated number = 1
+
+Repetition 641: random generated number = 1
+
+Repetition 642: random generated number = 0
+
+Repetition 643: random generated number = 0
+
+Repetition 644: random generated number = 0
+
+Repetition 645: random generated number = 1
+
+Repetition 646: random generated number = 1
+
+Repetition 647: random generated number = 0
+
+Repetition 648: random generated number = 1
+
+Repetition 649: random generated number = 1
+
+Repetition 650: random generated number = 1
+
+Repetition 651: random generated number = 0
+
+Repetition 652: random generated number = 0
+
+Repetition 653: random generated number = 0
+
+Repetition 654: random generated number = 0
+
+Repetition 655: random generated number = 0
+
+Repetition 656: random generated number = 1
+
+Repetition 657: random generated number = 0
+
+Repetition 658: random generated number = 0
+
+Repetition 659: random generated number = 1
+
+Repetition 660: random generated number = 1
+
+Repetition 661: random generated number = 1
+
+Repetition 662: random generated number = 0
+
+Repetition 663: random generated number = 1
+
+Repetition 664: random generated number = 1
+
+Repetition 665: random generated number = 0
+
+Repetition 666: random generated number = 0
+
+Repetition 667: random generated number = 0
+
+Repetition 668: random generated number = 0
+
+Repetition 669: random generated number = 0
+
+Repetition 670: random generated number = 0
+
+Repetition 671: random generated number = 0
+
+Repetition 672: random generated number = 1
+
+Repetition 673: random generated number = 0
+
+Repetition 674: random generated number = 1
+
+Repetition 675: random generated number = 0
+
+Repetition 676: random generated number = 1
+
+Repetition 677: random generated number = 1
+
+Repetition 678: random generated number = 0
+
+Repetition 679: random generated number = 1
+
+Repetition 680: random generated number = 1
+
+Repetition 681: random generated number = 0
+
+Repetition 682: random generated number = 1
+
+Repetition 683: random generated number = 0
+
+Repetition 684: random generated number = 1
+
+Repetition 685: random generated number = 0
+
+Repetition 686: random generated number = 1
+
+Repetition 687: random generated number = 1
+
+Repetition 688: random generated number = 0
+
+Repetition 689: random generated number = 1
+
+Repetition 690: random generated number = 1
+
+Repetition 691: random generated number = 0
+
+Repetition 692: random generated number = 1
+
+Repetition 693: random generated number = 1
+
+Repetition 694: random generated number = 0
+
+Repetition 695: random generated number = 1
+
+Repetition 696: random generated number = 1
+
+Repetition 697: random generated number = 1
+
+Repetition 698: random generated number = 0
+
+Repetition 699: random generated number = 1
+
+Repetition 700: random generated number = 1
+
+Repetition 701: random generated number = 0
+
+Repetition 702: random generated number = 1
+
+Repetition 703: random generated number = 0
+
+Repetition 704: random generated number = 1
+
+Repetition 705: random generated number = 1
+
+Repetition 706: random generated number = 1
+
+Repetition 707: random generated number = 1
+
+Repetition 708: random generated number = 0
+
+Repetition 709: random generated number = 0
+
+Repetition 710: random generated number = 0
+
+Repetition 711: random generated number = 0
+
+Repetition 712: random generated number = 1
+
+Repetition 713: random generated number = 0
+
+Repetition 714: random generated number = 0
+
+Repetition 715: random generated number = 0
+
+Repetition 716: random generated number = 0
+
+Repetition 717: random generated number = 1
+
+Repetition 718: random generated number = 0
+
+Repetition 719: random generated number = 0
+
+Repetition 720: random generated number = 1
+
+Repetition 721: random generated number = 0
+
+Repetition 722: random generated number = 0
+
+Repetition 723: random generated number = 1
+
+Repetition 724: random generated number = 1
+
+Repetition 725: random generated number = 1
+
+Repetition 726: random generated number = 0
+
+Repetition 727: random generated number = 1
+
+Repetition 728: random generated number = 1
+
+Repetition 729: random generated number = 1
+
+Repetition 730: random generated number = 1
+
+Repetition 731: random generated number = 0
+
+Repetition 732: random generated number = 1
+
+Repetition 733: random generated number = 1
+
+Repetition 734: random generated number = 1
+
+Repetition 735: random generated number = 1
+
+Repetition 736: random generated number = 1
+
+Repetition 737: random generated number = 0
+
+Repetition 738: random generated number = 1
+
+Repetition 739: random generated number = 0
+
+Repetition 740: random generated number = 0
+
+Repetition 741: random generated number = 0
+
+Repetition 742: random generated number = 1
+
+Repetition 743: random generated number = 0
+
+Repetition 744: random generated number = 0
+
+Repetition 745: random generated number = 1
+
+Repetition 746: random generated number = 1
+
+Repetition 747: random generated number = 0
+
+Repetition 748: random generated number = 0
+
+Repetition 749: random generated number = 1
+
+Repetition 750: random generated number = 0
+
+Repetition 751: random generated number = 0
+
+Repetition 752: random generated number = 1
+
+Repetition 753: random generated number = 1
+
+Repetition 754: random generated number = 1
+
+Repetition 755: random generated number = 0
+
+Repetition 756: random generated number = 0
+
+Repetition 757: random generated number = 1
+
+Repetition 758: random generated number = 0
+
+Repetition 759: random generated number = 1
+
+Repetition 760: random generated number = 0
+
+Repetition 761: random generated number = 0
+
+Repetition 762: random generated number = 0
+
+Repetition 763: random generated number = 1
+
+Repetition 764: random generated number = 0
+
+Repetition 765: random generated number = 0
+
+Repetition 766: random generated number = 1
+
+Repetition 767: random generated number = 0
+
+Repetition 768: random generated number = 0
+
+Repetition 769: random generated number = 0
+
+Repetition 770: random generated number = 1
+
+Repetition 771: random generated number = 1
+
+Repetition 772: random generated number = 1
+
+Repetition 773: random generated number = 1
+
+Repetition 774: random generated number = 0
+
+Repetition 775: random generated number = 0
+
+Repetition 776: random generated number = 1
+
+Repetition 777: random generated number = 0
+
+Repetition 778: random generated number = 0
+
+Repetition 779: random generated number = 0
+
+Repetition 780: random generated number = 1
+
+Repetition 781: random generated number = 0
+
+Repetition 782: random generated number = 1
+
+Repetition 783: random generated number = 0
+
+Repetition 784: random generated number = 0
+
+Repetition 785: random generated number = 1
+
+Repetition 786: random generated number = 0
+
+Repetition 787: random generated number = 0
+
+Repetition 788: random generated number = 0
+
+Repetition 789: random generated number = 1
+
+Repetition 790: random generated number = 1
+
+Repetition 791: random generated number = 1
+
+Repetition 792: random generated number = 0
+
+Repetition 793: random generated number = 1
+
+Repetition 794: random generated number = 1
+
+Repetition 795: random generated number = 0
+
+Repetition 796: random generated number = 1
+
+Repetition 797: random generated number = 0
+
+Repetition 798: random generated number = 0
+
+Repetition 799: random generated number = 1
+
+Repetition 800: random generated number = 1
+
+Repetition 801: random generated number = 1
+
+Repetition 802: random generated number = 0
+
+Repetition 803: random generated number = 0
+
+Repetition 804: random generated number = 1
+
+Repetition 805: random generated number = 1
+
+Repetition 806: random generated number = 0
+
+Repetition 807: random generated number = 0
+
+Repetition 808: random generated number = 0
+
+Repetition 809: random generated number = 0
+
+Repetition 810: random generated number = 0
+
+Repetition 811: random generated number = 0
+
+Repetition 812: random generated number = 1
+
+Repetition 813: random generated number = 1
+
+Repetition 814: random generated number = 1
+
+Repetition 815: random generated number = 0
+
+Repetition 816: random generated number = 1
+
+Repetition 817: random generated number = 1
+
+Repetition 818: random generated number = 1
+
+Repetition 819: random generated number = 0
+
+Repetition 820: random generated number = 0
+
+Repetition 821: random generated number = 1
+
+Repetition 822: random generated number = 0
+
+Repetition 823: random generated number = 0
+
+Repetition 824: random generated number = 0
+
+Repetition 825: random generated number = 0
+
+Repetition 826: random generated number = 1
+
+Repetition 827: random generated number = 1
+
+Repetition 828: random generated number = 0
+
+Repetition 829: random generated number = 1
+
+Repetition 830: random generated number = 1
+
+Repetition 831: random generated number = 1
+
+Repetition 832: random generated number = 1
+
+Repetition 833: random generated number = 0
+
+Repetition 834: random generated number = 0
+
+Repetition 835: random generated number = 0
+
+Repetition 836: random generated number = 1
+
+Repetition 837: random generated number = 0
+
+Repetition 838: random generated number = 0
+
+Repetition 839: random generated number = 1
+
+Repetition 840: random generated number = 1
+
+Repetition 841: random generated number = 1
+
+Repetition 842: random generated number = 0
+
+Repetition 843: random generated number = 0
+
+Repetition 844: random generated number = 1
+
+Repetition 845: random generated number = 0
+
+Repetition 846: random generated number = 1
+
+Repetition 847: random generated number = 1
+
+Repetition 848: random generated number = 0
+
+Repetition 849: random generated number = 0
+
+Repetition 850: random generated number = 1
+
+Repetition 851: random generated number = 1
+
+Repetition 852: random generated number = 0
+
+Repetition 853: random generated number = 0
+
+Repetition 854: random generated number = 1
+
+Repetition 855: random generated number = 1
+
+Repetition 856: random generated number = 1
+
+Repetition 857: random generated number = 0
+
+Repetition 858: random generated number = 0
+
+Repetition 859: random generated number = 0
+
+Repetition 860: random generated number = 0
+
+Repetition 861: random generated number = 0
+
+Repetition 862: random generated number = 0
+
+Repetition 863: random generated number = 0
+
+Repetition 864: random generated number = 0
+
+Repetition 865: random generated number = 1
+
+Repetition 866: random generated number = 0
+
+Repetition 867: random generated number = 1
+
+Repetition 868: random generated number = 0
+
+Repetition 869: random generated number = 1
+
+Repetition 870: random generated number = 0
+
+Repetition 871: random generated number = 1
+
+Repetition 872: random generated number = 0
+
+Repetition 873: random generated number = 0
+
+Repetition 874: random generated number = 0
+
+Repetition 875: random generated number = 1
+
+Repetition 876: random generated number = 0
+
+Repetition 877: random generated number = 1
+
+Repetition 878: random generated number = 0
+
+Repetition 879: random generated number = 1
+
+Repetition 880: random generated number = 0
+
+Repetition 881: random generated number = 1
+
+Repetition 882: random generated number = 1
+
+Repetition 883: random generated number = 0
+
+Repetition 884: random generated number = 0
+
+Repetition 885: random generated number = 1
+
+Repetition 886: random generated number = 0
+
+Repetition 887: random generated number = 0
+
+Repetition 888: random generated number = 0
+
+Repetition 889: random generated number = 1
+
+Repetition 890: random generated number = 1
+
+Repetition 891: random generated number = 0
+
+Repetition 892: random generated number = 1
+
+Repetition 893: random generated number = 1
+
+Repetition 894: random generated number = 0
+
+Repetition 895: random generated number = 1
+
+Repetition 896: random generated number = 1
+
+Repetition 897: random generated number = 1
+
+Repetition 898: random generated number = 0
+
+Repetition 899: random generated number = 0
+
+Repetition 900: random generated number = 1
+
+Repetition 901: random generated number = 1
+
+Repetition 902: random generated number = 1
+
+Repetition 903: random generated number = 0
+
+Repetition 904: random generated number = 1
+
+Repetition 905: random generated number = 1
+
+Repetition 906: random generated number = 1
+
+Repetition 907: random generated number = 0
+
+Repetition 908: random generated number = 0
+
+Repetition 909: random generated number = 1
+
+Repetition 910: random generated number = 1
+
+Repetition 911: random generated number = 0
+
+Repetition 912: random generated number = 0
+
+Repetition 913: random generated number = 1
+
+Repetition 914: random generated number = 0
+
+Repetition 915: random generated number = 0
+
+Repetition 916: random generated number = 1
+
+Repetition 917: random generated number = 1
+
+Repetition 918: random generated number = 1
+
+Repetition 919: random generated number = 0
+
+Repetition 920: random generated number = 1
+
+Repetition 921: random generated number = 0
+
+Repetition 922: random generated number = 1
+
+Repetition 923: random generated number = 0
+
+Repetition 924: random generated number = 0
+
+Repetition 925: random generated number = 1
+
+Repetition 926: random generated number = 0
+
+Repetition 927: random generated number = 0
+
+Repetition 928: random generated number = 1
+
+Repetition 929: random generated number = 1
+
+Repetition 930: random generated number = 1
+
+Repetition 931: random generated number = 0
+
+Repetition 932: random generated number = 0
+
+Repetition 933: random generated number = 0
+
+Repetition 934: random generated number = 0
+
+Repetition 935: random generated number = 0
+
+Repetition 936: random generated number = 0
+
+Repetition 937: random generated number = 1
+
+Repetition 938: random generated number = 0
+
+Repetition 939: random generated number = 1
+
+Repetition 940: random generated number = 0
+
+Repetition 941: random generated number = 1
+
+Repetition 942: random generated number = 0
+
+Repetition 943: random generated number = 0
+
+Repetition 944: random generated number = 0
+
+Repetition 945: random generated number = 1
+
+Repetition 946: random generated number = 0
+
+Repetition 947: random generated number = 0
+
+Repetition 948: random generated number = 1
+
+Repetition 949: random generated number = 0
+
+Repetition 950: random generated number = 1
+
+Repetition 951: random generated number = 1
+
+Repetition 952: random generated number = 1
+
+Repetition 953: random generated number = 0
+
+Repetition 954: random generated number = 1
+
+Repetition 955: random generated number = 0
+
+Repetition 956: random generated number = 1
+
+Repetition 957: random generated number = 0
+
+Repetition 958: random generated number = 0
+
+Repetition 959: random generated number = 0
+
+Repetition 960: random generated number = 1
+
+Repetition 961: random generated number = 1
+
+Repetition 962: random generated number = 1
+
+Repetition 963: random generated number = 0
+
+Repetition 964: random generated number = 1
+
+Repetition 965: random generated number = 1
+
+Repetition 966: random generated number = 1
+
+Repetition 967: random generated number = 0
+
+Repetition 968: random generated number = 0
+
+Repetition 969: random generated number = 1
+
+Repetition 970: random generated number = 0
+
+Repetition 971: random generated number = 0
+
+Repetition 972: random generated number = 1
+
+Repetition 973: random generated number = 0
+
+Repetition 974: random generated number = 0
+
+Repetition 975: random generated number = 0
+
+Repetition 976: random generated number = 1
+
+Repetition 977: random generated number = 1
+
+Repetition 978: random generated number = 1
+
+Repetition 979: random generated number = 1
+
+Repetition 980: random generated number = 0
+
+Repetition 981: random generated number = 0
+
+Repetition 982: random generated number = 0
+
+Repetition 983: random generated number = 1
+
+Repetition 984: random generated number = 1
+
+Repetition 985: random generated number = 0
+
+Repetition 986: random generated number = 1
+
+Repetition 987: random generated number = 0
+
+Repetition 988: random generated number = 0
+
+Repetition 989: random generated number = 1
+
+Repetition 990: random generated number = 1
+
+Repetition 991: random generated number = 0
+
+Repetition 992: random generated number = 1
+
+Repetition 993: random generated number = 1
+
+Repetition 994: random generated number = 1
+
+Repetition 995: random generated number = 1
+
+Repetition 996: random generated number = 0
+
+Repetition 997: random generated number = 1
+
+Repetition 998: random generated number = 0
+
+Repetition 999: random generated number = 0
+
+Repetition 1000: random generated number = 0
+
+
+Final Report:
+
+Num of 0s: 487
+
+Num of 1s: 513
+
+Num of 00s: 242
+
+Num of 01s: 244
+
+Num of 10s: 245
+
+Num of 11s: 268
+

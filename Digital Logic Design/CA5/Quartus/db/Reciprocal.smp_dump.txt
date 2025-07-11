@@ -1,0 +1,17 @@
+
+State Machine - |Reciprocal|Datapath:datapath|Multiplier:multiplier|y
+Name y.S1 y.S3 y.S2 
+y.S1 0 0 0 
+y.S2 1 0 1 
+y.S3 1 1 0 
+
+State Machine - |Reciprocal|Controller:control|y
+Name y.REPORT y.SAVE_Y y.MUL2 y.SUB y.SAVE_MUL1 y.MUL1 y.LOAD y.IDLE 
+y.IDLE 0 0 0 0 0 0 0 0 
+y.LOAD 0 0 0 0 0 0 1 1 
+y.MUL1 0 0 0 0 0 1 0 1 
+y.SAVE_MUL1 0 0 0 0 1 0 0 1 
+y.SUB 0 0 0 1 0 0 0 1 
+y.MUL2 0 0 1 0 0 0 0 1 
+y.SAVE_Y 0 1 0 0 0 0 0 1 
+y.REPORT 1 0 0 0 0 0 0 1 

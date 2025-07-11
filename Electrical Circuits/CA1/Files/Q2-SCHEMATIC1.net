@@ -1,0 +1,12 @@
+* source Q2
+I_I3         N00574 N00644 DC 3  
+R_R1         N00574 N00971  1  
+R_R2         N00644 N00971  4  
+V_V3         N05141 0 8
+R_R3         0 N00574  2  
+X_H1    N05141 N00971 N00644 0 SCHEMATIC1_H1 
+
+.subckt SCHEMATIC1_H1 1 2 3 4  
+H_H1         3 4 VH_H1 3
+VH_H1         1 2 0V
+.ends SCHEMATIC1_H1

@@ -1,0 +1,48 @@
+
+**** 01/04/25 19:17:20 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-run"  [ C:\Users\Shahab\Desktop\ec\CA1\q3-SCHEMATIC1-run.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "q3-SCHEMATIC1-run.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\q3-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING q3-SCHEMATIC1.net ****
+* source Q3
+I_I1         0 N00231 DC 5  
+R_R1         0 N00231  4  
+R_R2         0 N00291  6  
+C_C1         0 N00291  1n  
+R_R3         N00291 N00231  2  
+R_R7         GND N02940  1k  
+R_R5         0 N00291  1k  
+E_E1         N00291 N00231 N00231 0 2
+C_C2         GND N02940  1n  
+R_R6         N02898 N02940  6  
+V_V1         N02898 GND 20
+
+**** RESUMING q3-SCHEMATIC1-run.sim.cir ****
+.END
+
+ERROR -- Node GND is floating
+ERROR -- Node N02940 is floating
+ERROR -- Node N02898 is floating
